@@ -1,0 +1,17 @@
+uuid: 60018b07-b9c8-45dd-a21b-f1ac6092bb69
+langcode: en
+status: false
+dependencies: {  }
+id: production
+label: production
+description: ''
+weight: 0
+folder: ../config/production
+module: {  }
+theme: {  }
+blacklist: {  }
+graylist:
+  - system.site
+  - 'contact.form.*'
+graylist_dependents: true
+graylist_skip_equal: true
